@@ -7,12 +7,15 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color:#f4f4f4 ;
             margin: 0;
             padding: 0;
+            background-image: url('Photo_en_tete.png'); /* Lien vers l'image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         header {
-            background-color: #62d15c;
+            background-color: rgba(51, 51, 51, 0.8); /* Fond semi-transparent */
             color: white;
             padding: 1em;
             text-align: center;
@@ -24,16 +27,19 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: white;
         }
         nav a:hover {
             text-decoration: underline;
         }
         main {
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour le contenu */
+            margin: 20px;
+            border-radius: 10px;
         }
         footer {
-            background-color: #333;
+            background-color: rgba(51, 51, 51, 0.8); /* Fond semi-transparent */
             color: white;
             text-align: center;
             padding: 10px;
